@@ -5,11 +5,11 @@ iOS app that checks if a word exist in the English language in O(1) time.
 
 ## Powered by C underneath the hood
 
-The app is based on trie algorithm implemented in C. 
+The app is based on [trie](https://en.wikipedia.org/wiki/Trie) data structure implemented in C. 
 
 It loads a thesaurus of the English language (143,091 words) and checks if it contains a given word in about... 0,04 second!
 
-I found it so quick and powerful that I decided to share it with the community. It can be used for any kind of dictionary search. 
+I find it so quick and powerful that I decided to share it with the community. It can be used for any kind of dictionary search. 
 
 ## No storyboard - only code
 
