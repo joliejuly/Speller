@@ -9,7 +9,7 @@ The app is based on a [trie](https://en.wikipedia.org/wiki/Trie) data structure 
 
 It loads a dictionary of 143,091 English words and checks if it contains a given word in about... 0,04 second!
 
-It was initially written by me as a part of the [Harvard's CS50](https://cs50.harvard.edu) course's problem set. I find it so quick and powerful that I decided to share it with the community. It can be used for any kind of dictionary search. 
+It was initially written by me as a part of the [Harvard's CS50](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) course's problem set. I find it so quick and powerful that I decided to share it with the community. It can be used for any kind of dictionary search. 
 
 ## No storyboard - only code
 
