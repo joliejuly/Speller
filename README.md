@@ -1,15 +1,15 @@
 # Speller
-iOS app that checks if a word exist in the English language in O(1) time. 
+An iOS app that checks if a word exist in a dictionary in O(1) time. 
 
 ![Speller](https://media.giphy.com/media/TgMDHBm76Q9DhENP0y/giphy.gif)
 
 ## Powered by C underneath the hood
 
-The app is based on [trie](https://en.wikipedia.org/wiki/Trie) data structure implemented in C. 
+The app is based on a [trie](https://en.wikipedia.org/wiki/Trie) data structure implemented in C. 
 
-It loads a thesaurus of the English language (143,091 words) and checks if it contains a given word in about... 0,04 second!
+It loads a dictionary of 143,091 English words and checks if it contains a given word in about... 0,04 second!
 
-I find it so quick and powerful that I decided to share it with the community. It can be used for any kind of dictionary search. 
+It was initially written by me as a part of the [Harvard's CS50](https://cs50.harvard.edu) course's problem set. I find it so quick and powerful that I decided to share it with the community. It can be used for any kind of dictionary search. 
 
 ## No storyboard - only code
 
