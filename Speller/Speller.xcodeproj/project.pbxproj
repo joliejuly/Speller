@@ -14,7 +14,7 @@
 		0FF34CF820A0B3E300A0BF1E /* dict.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF34CF720A0B3E300A0BF1E /* dict.m */; };
 		0FF34CFA20A0B73B00A0BF1E /* large.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0FF34CF920A0B73B00A0BF1E /* large.txt */; };
 		0FF34CFD20A20AB800A0BF1E /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF34CFC20A20AB800A0BF1E /* TextField.swift */; };
-		0FF34CFF20A20AF900A0BF1E /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF34CFE20A20AF900A0BF1E /* ExtensionString.swift */; };
+		0FF34CFF20A20AF900A0BF1E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF34CFE20A20AF900A0BF1E /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,7 +41,7 @@
 		0FF34CF720A0B3E300A0BF1E /* dict.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dict.m; sourceTree = "<group>"; };
 		0FF34CF920A0B73B00A0BF1E /* large.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = large.txt; sourceTree = "<group>"; };
 		0FF34CFC20A20AB800A0BF1E /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
-		0FF34CFE20A20AF900A0BF1E /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		0FF34CFE20A20AF900A0BF1E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				0FF34CDC20A0914300A0BF1E /* AppDelegate.swift */,
 				0FF34CDE20A0914300A0BF1E /* ViewController.swift */,
 				0FF34CFC20A20AB800A0BF1E /* TextField.swift */,
-				0FF34CFE20A20AF900A0BF1E /* ExtensionString.swift */,
+				0FF34CFE20A20AF900A0BF1E /* String+Extension.swift */,
 				0FF34D0020A20B5F00A0BF1E /* Support files */,
 			);
 			path = App;
@@ -178,7 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF34CFF20A20AF900A0BF1E /* ExtensionString.swift in Sources */,
+				0FF34CFF20A20AF900A0BF1E /* String+Extension.swift in Sources */,
 				0FF34CDF20A0914300A0BF1E /* ViewController.swift in Sources */,
 				0FF34CF820A0B3E300A0BF1E /* dict.m in Sources */,
 				0FF34CDD20A0914300A0BF1E /* AppDelegate.swift in Sources */,

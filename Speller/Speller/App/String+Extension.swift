@@ -8,9 +8,9 @@
 
 import Foundation
 
-//returns true if there are non-latin letters in the string (e.g. cyrillic)
 extension String {
     var latinCharactersOnly: Bool {
-        return self.range(of: "\\p{Latin}", options: .regularExpression) == nil
+        return self.range(of: "\\p{Latin}",
+                          options: .regularExpression) == nil
     }
 }
