@@ -20,20 +20,13 @@ typedef struct node
     struct node *children[SIZE]; 
 }node;
 
-
 bool check(const char *word);
-
-
 bool load(const char *dictionary);
 
-
 unsigned int hash (char c);
-
-
 unsigned int size(void);
 
 bool free_trie (node *trav);
-
 bool unload(void);
 
 #endif // DICTIONARY_H
